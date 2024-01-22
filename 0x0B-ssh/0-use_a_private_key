@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#connection to remote server using ssh
+
+ssh root@321468-web-01 -i ~/.ssh/school
