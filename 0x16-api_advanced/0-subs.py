@@ -28,9 +28,3 @@ def number_of_subscribers(subreddit):
     except Exception as e:
         print(f"Error fetching data: {e}")
         return 0
-
-# Example usage:
-subreddit_name = 'learnprogramming'
-subscribers_count = number_of_subscribers(subreddit_name)
-print(f"Subscribers in r/{subreddit_name}: {subscribers_count}")
-
